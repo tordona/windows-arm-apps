@@ -1506,6 +1506,13 @@ services:
         url: "https://www.irfanview.com/arm64.htm"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Imagine"
+        logo: "assets/tools/imagine.png"
+        subtitle: "Lightweight Freeware Image & Animation Viewer"
+        tag: "ARM64EC"        
+        url: "https://www.nyam.pe.kr/dev/imagine/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Paint.NET"
         logo: "assets/tools/paintnet.png"
         subtitle: "Free image and photo editing software"
@@ -4558,6 +4565,12 @@ services:
         logo: "assets/tools/msys2.png"
         subtitle: "Software environment providing a Linux-like shell and tools (Bash, GCC, Git) for building native Windows applications, using a package manager (pacman) for easy installation, making cross-platform development simpler."
         url: "https://www.msys2.org/wiki/arm64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Conan"
+        logo: "assets/tools/conan.png"
+        subtitle: "Decentralized, Portable C/C++ package manager"
+        url: "https://github.com/conan-io/conan/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Red Panda C++"
